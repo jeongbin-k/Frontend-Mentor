@@ -1,5 +1,5 @@
 import "./App.css";
-import QRcodecard from "./components/qrcodecard";
+import QRcodecard from "./components/QRcodecard";
 
 function App() {
   return <QRcodecard />;
