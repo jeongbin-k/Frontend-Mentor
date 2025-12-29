@@ -3,7 +3,7 @@ import qrimage from "../assets/image-qr-code.png";
 
 const QRcodecard = () => {
   return (
-    <div className="qrcard">
+    <article className="qrcard">
       <div className="qrcard-img">
         <img src={qrimage} alt="QR code to Frontend Mentor" />
       </div>
@@ -14,7 +14,7 @@ const QRcodecard = () => {
           to the next level
         </p>
       </div>
-    </div>
+    </article>
   );
 };
 
