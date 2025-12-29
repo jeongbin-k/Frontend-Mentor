@@ -6,7 +6,7 @@ const BlogCard = () => {
   return (
     <article className="BlogCard">
       <div className="blog_image">
-        <img src={blogimage} />
+        <img src={blogimage} alt="Illustration representing the blog article" />
       </div>
       <div className="blog_content">
         <span className="tag">Learning</span>
@@ -18,7 +18,7 @@ const BlogCard = () => {
         </p>
       </div>
       <div className="author">
-        <img src={blogname} />
+        <img src={blogname} alt="Avatar of Greg Hooper" />
         <span>Greg Hooper</span>
       </div>
     </article>
