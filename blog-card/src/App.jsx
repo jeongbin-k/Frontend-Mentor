@@ -1,5 +1,5 @@
 import "./App.css";
-import BlogCard from "./components/blogcard";
+import BlogCard from "./components/BlogCard";
 
 function App() {
   return <BlogCard />;
