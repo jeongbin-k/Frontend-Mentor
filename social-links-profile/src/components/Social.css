@@ -1,0 +1,57 @@
+.social {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 12%);
+  color: white;
+  padding: 35px 40px;
+}
+.social .social_author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social .social_author img {
+  width: 90px;
+  border-radius: 50%;
+}
+.social .social_author h1 {
+  font-size: 22px;
+}
+
+.social .social_author span {
+  color: hsl(75, 94%, 57%);
+}
+
+.social .social_author p {
+  display: inline-block;
+  margin: 15px 0;
+}
+
+.author_links {
+  margin-top: 15px;
+}
+
+.author_links > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.author_links ul > li > a {
+  display: block;
+  padding: 12px;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+.author_links ul > li > a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
