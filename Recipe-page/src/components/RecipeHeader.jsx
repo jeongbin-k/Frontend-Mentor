@@ -4,7 +4,10 @@ import HeaderImage from "../assets/images/image-omelette.jpeg";
 const RecipeHeader = () => {
   return (
     <header>
-      <img src={HeaderImage} />
+      <img
+        src={HeaderImage}
+        alt="A freshly cooked omelette served on a plate"
+      />
       <div className="recipeTitle">
         <h1>Simple Omelette Recipe</h1>
         <p>
