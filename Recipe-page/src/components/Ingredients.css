@@ -1,0 +1,16 @@
+.ingredients-content ul li {
+  position: relative;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  color: hsl(30, 10%, 34%);
+}
+.ingredients-content ul li::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0.3em;
+  width: 4px;
+  height: 4px;
+  background-color: hsl(14, 45%, 36%);
+  border-radius: 50%;
+}

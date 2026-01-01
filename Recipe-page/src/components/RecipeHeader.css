@@ -1,0 +1,54 @@
+header img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.recipeTitle h1 {
+  font-family: "Young Serif", serif;
+  font-size: 37px;
+  color: hsl(24, 5%, 18%);
+  margin: 30px 0;
+}
+
+.recipeTitle p {
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+}
+
+.recipeTime {
+  background-color: hsl(330, 100%, 98%);
+  padding: 25px 20px;
+  border-radius: 10px;
+  margin: 30px 0px;
+}
+
+.recipeTime p {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+  font-size: 18px;
+}
+.recipeTime ul {
+  margin-top: 20px;
+}
+.recipeTime ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  color: hsl(30, 10%, 34%);
+}
+.recipeTime ul li::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0.3em;
+  width: 4px;
+  height: 4px;
+  background-color: hsl(332, 51%, 32%);
+  border-radius: 50%;
+}
+
+.recipeTime ul li span {
+  font-weight: 800;
+  color: hsl(30, 10%, 34%);
+  padding-right: 5px;
+}

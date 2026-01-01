@@ -1,0 +1,28 @@
+.section-border {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.nutrition-content p {
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition-content table {
+  width: 100%;
+  margin-top: 20px;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition-content table tbody tr {
+  border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+.nutrition-content table tbody tr:last-child {
+  border-bottom: none;
+}
+.nutrition-content table tbody tr td {
+  padding: 13px 0;
+  padding-left: 30px;
+}
+.nutrition-content table tbody tr td:nth-of-type(even) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}

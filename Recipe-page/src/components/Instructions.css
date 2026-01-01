@@ -1,0 +1,21 @@
+.instructions-content ol {
+  list-style: decimal;
+  padding-left: 15px;
+}
+.instructions-content ol li {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: hsl(30, 10%, 34%);
+}
+
+.instructions-content ol li::marker {
+  font-weight: 700;
+  color: hsl(332, 51%, 32%);
+  padding-right: 15px;
+}
+
+.instructions-content ol li span {
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
+}
