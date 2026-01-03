@@ -1,0 +1,26 @@
+.header {
+  text-align: center;
+  color: hsl(234, 12%, 34%);
+}
+.header h1 {
+  font-size: 36px;
+  font-weight: 200;
+}
+.header h2 {
+  font-size: 35px;
+  padding: 10px 0 30px 0;
+}
+.header p {
+  display: inline-block;
+  max-width: 580px;
+  line-height: 1.5;
+}
+
+@media (max-width: 475px) {
+  .header h1 {
+    font-size: 25px;
+  }
+  .header h2 {
+    font-size: 24px;
+  }
+}

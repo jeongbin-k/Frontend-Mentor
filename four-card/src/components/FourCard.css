@@ -1,0 +1,61 @@
+.fourcard {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+  max-width: 280px;
+  min-height: 170px;
+  height: auto;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.card h3 {
+  color: hsl(234, 12%, 34%);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 14px;
+  padding: 10px 0;
+  line-height: 1.7;
+}
+.card img {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.card-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.supervisor {
+  border-top: 3px solid #45c6be;
+}
+
+.team-builder {
+  border-top: 3px solid #e63943;
+}
+
+.karma {
+  border-top: 3px solid #f89c38;
+}
+
+.calculator {
+  border-top: 3px solid #4e8de4;
+}
+
+@media (max-width: 1100px) {
+  .fourcard {
+    flex-direction: column;
+  }
+}
