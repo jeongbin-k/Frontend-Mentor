@@ -1,0 +1,16 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  body {
+    height: auto;
+  }
+}
