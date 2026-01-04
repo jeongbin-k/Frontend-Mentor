@@ -1,0 +1,36 @@
+.container {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  font-size: 13px;
+}
+
+.card-1 {
+  grid-column: span 2;
+}
+
+.card-5 {
+  grid-column: span 2;
+}
+
+.card-3 {
+  grid-row: span 2;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+  .card-1 {
+    grid-column: auto;
+  }
+  .card-5 {
+    grid-column: auto;
+  }
+
+  .card-3 {
+    grid-row: auto;
+  }
+}
