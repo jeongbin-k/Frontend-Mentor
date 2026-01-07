@@ -3,7 +3,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import data from "./data/data.json";
 import Header from "./components/Header";
-import Filterbar from "./components/Filterbar";
+import FilterBar from "./components/FilterBar";
 import ExtensionGrid from "./components/ExtensionGrid";
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
     <div className={`app-content ${isDarkMode ? "dark-mode" : ""}`}>
       <div className="app-inner">
         <Header isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
-        <Filterbar
+        <FilterBar
           filterStatus={filterStatus}
           setFilterStatus={setFilterStatus}
         />
