@@ -1,0 +1,38 @@
+:root {
+  --bg-gradient: linear-gradient(180deg, #ebf2fc 0%, #eef8f9 100%);
+  --title-text: hsl(227, 75%, 14%);
+  --header-content: white;
+  --header-btn: hsl(0, 0%, 93%);
+  --content-btn: white;
+  --btn-color: hsl(227, 75%, 14%);
+  --card-bg: #ffffff;
+  --card-main: hsl(227, 75%, 14%);
+  --card-sub: hsl(226, 11%, 37%);
+  --remove-btn: white;
+  --remove-color: hsl(227, 75%, 14%);
+}
+.dark-mode {
+  --bg-gradient: linear-gradient(180deg, #040918 0%, #091540 100%);
+  --title-text: white;
+  --header-content: hsl(226, 25%, 17%);
+  --header-btn: hsl(226, 11%, 37%);
+  --content-btn: hsl(226, 11%, 37%);
+  --btn-color: white;
+  --card-bg: hsl(226, 25%, 17%);
+  --card-main: white;
+  --card-sub: hsl(0, 0%, 78%);
+  --remove-btn: hsl(226, 25%, 17%);
+  --remove-color: white;
+}
+
+.app-content {
+  min-height: 100vh;
+  background: var(--bg-gradient);
+}
+
+.app-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+}

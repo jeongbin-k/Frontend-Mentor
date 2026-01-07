@@ -1,0 +1,25 @@
+.header {
+  margin-top: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: var(--header-content);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.header-content button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--header-btn);
+}
+.header-content button:hover {
+  background-color: hsl(0, 0%, 78%);
+  transition: 0.5s ease;
+}
