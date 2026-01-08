@@ -1,9 +1,13 @@
 import "./ExtensionCard.css";
 
 const ExtensionCard = ({ item, onToggle, onDelete }) => {
+  const images = import.meta.glob("../assets/images/*.svg", { eager: true });
+
   const getImageUrl = (path) => {
-    const correctedPath = path.replace("./assets", "../assets");
-    return new URL(correctedPath, import.meta.url).href;
+    // path가 "./assets/images/logo.svg" 라면
+    //"../assets/images/logo.svg"로 바꿔서 매칭합니다.
+    const key = path.replace("./assets", "../assets");
+    return images[key]?.default || "";
   };
 
   return (
