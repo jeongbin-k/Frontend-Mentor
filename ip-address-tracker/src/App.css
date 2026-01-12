@@ -1,0 +1,5 @@
+.section-top {
+  position: relative;
+  height: 260px;
+  z-index: 2;
+}
