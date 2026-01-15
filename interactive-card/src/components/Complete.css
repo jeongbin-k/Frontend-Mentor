@@ -1,0 +1,27 @@
+.complete-container {
+  max-width: 400px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.complete-container h1 {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.complete-container p {
+  color: hsl(212, 12%, 71%);
+}
+
+@media (max-width: 468px) {
+  .complete-container {
+    height: auto;
+    padding-top: 90px;
+  }
+}

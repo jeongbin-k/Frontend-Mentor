@@ -1,0 +1,36 @@
+.app-container {
+  width: 100%;
+  min-width: 1280px;
+  min-height: 100vh;
+  display: flex;
+}
+
+.section-left {
+  flex: 1;
+  background-image: url("./assets/images/bg-main-desktop.png");
+  background-repeat: no-repeat;
+}
+
+.section-right {
+  flex: 2;
+}
+
+@media (max-width: 468px) {
+  .app-container {
+    min-width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .section-left {
+    width: 100%;
+    min-height: 35vh;
+    background-image: url("./assets/images/bg-main-mobile.png");
+  }
+
+  .section-right {
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+  }
+}
