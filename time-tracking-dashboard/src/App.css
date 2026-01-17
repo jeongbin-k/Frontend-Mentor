@@ -1,0 +1,29 @@
+.app-container {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(226, 43%, 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    height: auto;
+  }
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+  }
+}
